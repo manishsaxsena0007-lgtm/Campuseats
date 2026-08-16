@@ -6,7 +6,9 @@
 
 ```bash
 curl.exe -i https://jsonplaceholder.typicode.com/posts/1
+```
 
+```text
 HTTP/1.1 200 OK
 Date: Sun, 16 Aug 2026 09:02:57 GMT
 Content-Type: application/json; charset=utf-8
@@ -36,6 +38,7 @@ alt-svc: h3=":443"; ma=86400
   "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
   "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
 }
+```
 
 ## Request 2 - Get user 1
 
@@ -43,7 +46,9 @@ alt-svc: h3=":443"; ma=86400
 
 ```bash
 curl.exe -i https://jsonplaceholder.typicode.com/users/1
+```
 
+```text
 HTTP/1.1 200 OK
 Date: Sun, 16 Aug 2026 09:28:07 GMT
 Content-Type: application/json; charset=utf-8
@@ -91,7 +96,7 @@ alt-svc: h3=":443"; ma=86400
     "bs": "harness real-time e-markets"
   }
 }
-
+```
 ---
 
 ## Request 3 — Get Comment 1
